@@ -19,6 +19,12 @@ import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+//import java.sql.Statement;
+import java.sql.PreparedStatement;
 
 public class CustomGridPane /* extends GridPane */ {
 
