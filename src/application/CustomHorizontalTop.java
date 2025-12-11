@@ -32,11 +32,11 @@ public class CustomHorizontalTop extends VBox {
 	setTitle.setFont(Font.font(BASELINE_OFFSET_SAME_AS_HEIGHT)); //other options Font.font("Arial", FontWeight.BOLD, 20)
 	setTitle.setStyle("");//"-fx-text-fill: white;"
 	*/
-	String imageLocation = getClass().getResource("resources/images/SoccerBall.jpg").toExternalForm();
+	String imageLocation = getClass().getResource("resources/images/banner.png").toExternalForm();
 	ImageView image = new ImageView(imageLocation);//https://www.pexels.com/photo/blue-orange-black-green-white-adidas-soccer-ball-on-green-field-47354/
 	//set width*height image
-	image.setFitWidth(75); 
-    image.setFitHeight(75); 
+	image.setFitWidth(500); 
+    image.setFitHeight(125); 
     image.setPreserveRatio(true);
 	//add image to Hbox
 	topHbox.getChildren().addAll(image);
